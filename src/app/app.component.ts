@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Archana';
+  title = 'template reference variable';
+  GetData(item:any){
+    console.warn(item);
+  }
+ 
 }
