@@ -1,3 +1,8 @@
 <p>user-list works!</p>
 <input type="text"#box placeholder="enter a data">
 <button (click)="GetData(box.value)">click me</button>
+<h1>{{title|uppercase |slice :3:8}}</h1>
+<h1>{{user|json|uppercase}}</h1>
+<h1>{{003.3400|number:'1.2-4'}}</h1>
+<h1>{{100|currency:'INR'}}</h1>
+<h2>{{30|uSDINR}}</h2>

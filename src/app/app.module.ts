@@ -11,6 +11,7 @@ import { UserLisComponent } from './user-lis/user-lis.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import { CountryComponent } from './country/country.component';
+import { USDINRPipe } from './pipes/usdinr.pipe';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { CountryComponent } from './country/country.component';
     UserListComponent,
     StudentListComponent,
     CountryComponent,
+    USDINRPipe,
     
   ],
   imports: [
